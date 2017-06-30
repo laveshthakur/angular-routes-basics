@@ -1,0 +1,32 @@
+
+.wrapper2 {
+  display: grid;
+  grid-template-areas:
+    "header header header"
+    "nav article ads"
+    "footer footer footer";
+  grid-template-rows: 60px 1fr 60px;
+  grid-template-columns: 20% 1fr 20%;
+  grid-gap: 10px;
+  height: 97vh;
+  margin: 0;
+}
+#pageHeader {
+  grid-area: header;
+}
+#pageFooter {
+  grid-area: footer;
+}
+#mainArticle {
+  grid-area: article;
+}
+#mainNav {
+  grid-area: nav;
+}
+#siteAds {
+  grid-area: ads;
+}
+#pageHeader, #pageFooter, #mainArticle, #mainNav, #siteAds {
+  padding: 10px;
+  background: gold;
+}

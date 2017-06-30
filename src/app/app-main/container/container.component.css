@@ -1,0 +1,32 @@
+.wrapper {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-gap: 10px;
+  background-color: gold;
+  color: gold;
+}
+
+.box {
+  background-color: #444;
+  color: #fff;
+  border-radius: 5px;
+  padding: 20px;
+  font-size: 150%;
+  height: 50px;
+}
+.wrapper2 {
+  display: grid;
+  grid-template-columns: 100%;
+  grid-gap: 10px;
+  background-color: gold;
+  color: gold;
+}
+
+.box2 {
+  background-color: #444;
+  color: #fff;
+  border-radius: 5px;
+  padding: 20px;
+  font-size: 150%;
+  height: 150px;
+}
